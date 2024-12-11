@@ -544,6 +544,8 @@ footer{
 }
 .about{
     width: 300px;
+    min-height: 10%;
+    max-height: 15%;
 }
 
 .contact div{
@@ -552,7 +554,10 @@ footer{
     align-items: center;
     padding: 5px 0px;
 }
-
+.contact{
+    min-height: 10%;
+    max-height: 15%;
+}
 .contact div p{
     margin-bottom: 0px;
 }
@@ -560,6 +565,8 @@ footer{
 display: flex;
 flex-direction: column;
 gap: 5px;
+min-height: 10%;
+    max-height: 22%;
 
 
 
@@ -773,7 +780,7 @@ flex-direction: column;
 }
     
     footer{
-        height: 220vh;
+        height: 140vh;
     }
 }
 @media screen and (max-width:429px) {
